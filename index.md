@@ -96,12 +96,12 @@ The most interesting aspect of this project is the fact that all of the battle l
 >## **Dungeon Mesh**
 
 - Very basic game engine
-- Entity-component-system architecture
+- Object-component architecture
 - Built-in scene editor
 - Written in C++, using Vulkan for rendering and GLFW to handle window and input
 
 This project was developed over a couple of weeks for the Computer Graphics course at Politecnico di Milano, in a group with two other students.\
-I personally handled the engine side of the project, from the loading of the scene from disk to the entity-component-system architecture, as well as some lower-level aspects with some Vulkan calls to correctly render the scene, and some shader logic.\
+I personally handled the engine side of the project, from the loading of the scene from disk to the object-component architecture, as well as some lower-level aspects with some Vulkan calls to correctly render the scene, and some shader logic.\
 We received the maximum grade of 30L.
 
 |![]({{ "/resources/dungeonmesh_environment.gif" | relative_url }})|![]({{ "/resources/dungeonmesh_editor.gif" | relative_url }})|
